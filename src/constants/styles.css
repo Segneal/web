@@ -1,0 +1,52 @@
+body {
+  display: block;
+}
+.app {
+  background-color: black;
+  width: 100%;
+  min-height: calc(25 * 2rem);
+  position: relative;
+}
+
+.app-page {
+  height: 100vh;
+}
+
+.mainbody-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Assets/Images/MBody.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbody-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+}
+.mainbody-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, black 15%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.4;
+}
