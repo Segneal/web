@@ -21,7 +21,7 @@ export default function Presentation() {
         >
           Hello, I'Am Nicolas
         </Heading>
-        <Text mt="5" color="navBarGray.100">
+        <Text mt="5" color="navBarGray.100" fontSize={["15px", "20px", "25px"]}>
           I am a fullstack software developer based in Buenos Aires, Argentina.
         </Text>
       </Box>
