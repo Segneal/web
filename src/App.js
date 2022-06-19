@@ -7,6 +7,7 @@ import Footer from "./component/Footer";
 import Presentation from "./component/Presentation";
 import Social from "./component/Social";
 import About from "./component/About";
+import Tecnologies from "./component/Tecnologies";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Tecnologies />
       </section>
     </div>
   );
