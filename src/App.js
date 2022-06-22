@@ -18,10 +18,10 @@ function App() {
         <Presentation />
         <Social />
       </section>
-      <section>
+      <section className="app-page">
         <About />
       </section>
-      <section>
+      <section className="app-page">
         <Tecnologies />
       </section>
     </div>

@@ -8,7 +8,12 @@ import { fontBreakPoints, imageBreakPoints } from "../constants/breakpoints";
 
 export default function About() {
   return (
-    <Box className="about-container" h="100vh" bgColor="navBarGray.200">
+    <Box
+      className="about-container"
+      h="100vh"
+      bgColor="navBarGray.200"
+      minH="580px"
+    >
       <Box className="about-wrapper" pt="50">
         <Box
           className="about-img"

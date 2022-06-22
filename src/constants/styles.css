@@ -10,6 +10,7 @@ body {
 
 .app-page {
   height: 100vh;
+  min-height: 580px;
 }
 
 .mainbody-wrapper {
