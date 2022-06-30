@@ -52,36 +52,42 @@ body {
   opacity: 0.4;
 }
 
+.about-headers {
+  color: white;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+
 .about-wrapper {
   display: flex;
   place-content: center;
-  justify-content: center;
   color: white;
   border: "1px solid white";
-  min-height: 100px;
+  margin: auto;
 }
 
-.about-img {
-  box-shadow: 0 0 5px white, 0 0 15px #d95802;
-  border-radius: 50%;
-  margin-left: 20%;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: 100%;
+.left-col {
+  width: 40%;
+  border: 1px solid white;
+  overflow: hidden;
 }
-
-.about-text {
-  margin-right: 20%;
-  text-align: center;
+.right-col {
+  width: 40%;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 700px) {
   .about-wrapper {
     flex-direction: column;
-    text-align: center;
+    margin: auto;
   }
 
-  .img {
-    margin-left: 50%;
+  .right-col {
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-portrait {
+    display: none !important;
   }
 }

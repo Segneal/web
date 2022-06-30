@@ -8,6 +8,7 @@ import Presentation from "./component/Presentation";
 import Social from "./component/Social";
 import About from "./component/About";
 import Tecnologies from "./component/Tecnologies";
+import Career from "./component/Career";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </section>
       <section className="app-page">
         <Tecnologies />
+      </section>
+      <section className="app-page">
+        <Career />
       </section>
     </div>
   );

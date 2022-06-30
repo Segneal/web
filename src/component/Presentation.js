@@ -10,8 +10,8 @@ export default function Presentation() {
       position="relative"
       placeItems="center"
       justifyContent="center"
-      ml="15"
-      mr="15"
+      w="90%"
+      marginInline="auto"
     >
       <Box h={("300px", "200px")}>
         <Heading

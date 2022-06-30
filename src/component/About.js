@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Container, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import Portrait from "../Assets/Images/portrait.jpg";
 import "../constants/styles.css";
@@ -8,43 +8,29 @@ import { fontBreakPoints, imageBreakPoints } from "../constants/breakpoints";
 
 export default function About() {
   return (
-    <Box
-      className="about-container"
-      h="100vh"
-      bgColor="navBarGray.200"
-      minH="580px"
-    >
-      <Box className="about-wrapper" pt="50">
-        <Box
-          className="about-img"
-          border="1px solid white"
-          h={["100px", "200px"]}
-          w={["100px", "200px"]}
-          bgImage={Portrait}
-          objectFit="cover"
-        ></Box>
-        <Box className="about-text" mr="auto" pl="10%">
-          <Box
-            className="about-description"
-            fontSize={fontBreakPoints}
-            pt="10vh"
-          >
-            <Heading as="h1">About Me</Heading>
-            <Container color="white">
-              Hi, I am an argentinian fullstack software developer with 2 years
-              of experience coding in multiple languajes and paradigms, check
-              below for them.
-            </Container>
-          </Box>
-          <Box pt="10vh" className="about-contact" fontSize={fontBreakPoints}>
-            <Heading as="h1">Contact</Heading>
-            <Container>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            </Container>
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+    <Flex className="about-wrapper" h="100vh" bgColor="navBarGray.200">
+      <div className="left-col">
+        <div className="image-container">
+          <img className="about-portrait" src={Portrait}></img>
+        </div>
+      </div>
+      <div className="right-col">
+        <section className="about-row">
+          <div className="about-headers">About Me</div>
+          <div className="about-description">
+            I'm a software developer with 2 years of experience with multiple
+            technologies both front and backend. keep scrolling to know about
+            them
+          </div>
+        </section>
+        <section className="about-row">
+          <div className="about-headers">Contact</div>
+          <div className="about-description">
+            <h1>znicolasheredia@gmail.com</h1>
+            <h1>(11)3603-8696</h1>
+          </div>
+        </section>
+      </div>
+    </Flex>
   );
 }
