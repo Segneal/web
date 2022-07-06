@@ -14,7 +14,7 @@ export default function Social() {
       justifyContent="center"
       position="relative"
       color="white"
-      pt="50"
+      pt="3em"
     >
       <Flex
         pt="25"
