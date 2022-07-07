@@ -1,7 +1,7 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
 
-const breakPoints = ["15px", "20px", "25px"];
+const breakPoints = ["20px", "25px"];
 export default function NavBar() {
   return (
     <Flex
