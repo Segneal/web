@@ -9,6 +9,7 @@ import Social from "./component/Social";
 import About from "./component/About";
 import Tecnologies from "./component/Tecnologies";
 import Career from "./component/Career";
+import ToTop from "./component/ToTop";
 
 function App() {
   return (
@@ -17,17 +18,17 @@ function App() {
         <Background />
         <NavBar />
         <Presentation />
-        <Social />
+        <Social /> <ToTop className="scroller" />
       </section>
       <section className="app-page">
         <About />
       </section>
-      <section className="app-page">
+      {/* <section className="app-page">
         <Tecnologies />
       </section>
       <section className="app-page">
         <Career />
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -7,11 +7,6 @@ import { fontBreakPoints, imageBreakPoints } from "../constants/breakpoints";
 //https://www.styleshout.com/templates/preview/Ceevee_2_0_0/#about
 
 export default function About() {
-  const toTop = () => {
-    console.log("sarasa");
-    window.scrollTo({ top: "200vh", behavior: "smooth" });
-  };
-
   return (
     <Flex className="about-wrapper" h="100vh" bgColor="navBarGray.200">
       <div className="left-col">
@@ -36,9 +31,9 @@ export default function About() {
               <h2>(11)3603-8696</h2>
             </div>
 
-            <button className="cv-downloader" onClick={toTop}>
+            {/* <button className="cv-downloader" onClick={toTop}>
               sarasa
-            </button>
+            </button> */}
           </div>
         </section>
       </div>
