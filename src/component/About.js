@@ -19,7 +19,7 @@ export default function About() {
           <h1>About Me</h1>
           <p>
             I'm a 30's years old software developer with 2 years of experience
-            with multiple technologies both front and backend. keep scrolling to
+            in multiple technologies both front and backend. keep scrolling to
             know about them
           </p>
         </section>
@@ -30,10 +30,6 @@ export default function About() {
               <h2>znicolasheredia@gmail.com</h2>
               <h2>(11)3603-8696</h2>
             </div>
-
-            {/* <button className="cv-downloader" onClick={toTop}>
-              sarasa
-            </button> */}
           </div>
         </section>
       </div>

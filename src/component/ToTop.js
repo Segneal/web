@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-
+import arrow from "../Assets/logos/up-arrow.png";
 export default function ToTop() {
-  const [isVisible, setIsVisible] = React.useState("false");
+  const [isVisible, setIsVisible] = React.useState("true");
 
   const toggleVisibility = () => {
-    console.log(window.pageYOffset);
-    if (window.pageYOffset > 400) {
+    if (window.scrollY > 400) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -20,18 +19,22 @@ export default function ToTop() {
   }, []);
 
   const toTop = () => {
-    window.scrollTo({ top: "0", behavior: "smooth" });
+    window.scrollTo({ top: 10 });
+  };
+
+  const buttonClasses = () => {
+    let classNames = "button-scroller center fixed-bottom ";
+    if (isVisible) {
+      return classNames + "active";
+    }
+    return classNames;
   };
 
   return (
-    <>
-      {isVisible && (
-        <div className="button-scroller">
-          <button className="arrow-scroller" onClick={toTop}>
-            sarasa
-          </button>
-        </div>
-      )}
-    </>
+    <div className={buttonClasses()}>
+      <button className="arrow-scroller" onClick={toTop}>
+        ^
+      </button>
+    </div>
   );
 }

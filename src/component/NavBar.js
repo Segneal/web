@@ -13,18 +13,26 @@ export default function NavBar() {
       justifyContent="center"
       p="10"
     >
-      <Heading variant="fire" fontSize={breakPoints}>
-        Home
-      </Heading>
-      <Heading variant="fire" fontSize={breakPoints}>
-        About
-      </Heading>
-      <Heading variant="fire" fontSize={breakPoints}>
-        Resume
-      </Heading>
-      <Heading variant="fire" fontSize={breakPoints}>
-        Works
-      </Heading>
+      <a>
+        <Heading variant="fire" fontSize={breakPoints}>
+          Home
+        </Heading>
+      </a>
+      <a>
+        <Heading variant="fire" fontSize={breakPoints}>
+          About
+        </Heading>
+      </a>
+      <a>
+        <Heading variant="fire" fontSize={breakPoints}>
+          Resume
+        </Heading>
+      </a>
+      <a>
+        <Heading variant="fire" fontSize={breakPoints}>
+          Works
+        </Heading>
+      </a>
     </Flex>
   );
 }
