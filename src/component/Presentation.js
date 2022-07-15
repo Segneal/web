@@ -19,7 +19,7 @@ export default function Presentation() {
           as="h1"
           fontSize={["30px", "40px", "50px", "60px"]}
         >
-          Hello, I'Am Nicolas
+          Hello, I Am Nicolas
         </Heading>
         <Text mt="5" color="navBarGray.100" fontSize={["15px", "20px", "25px"]}>
           I am a fullstack software developer based in Buenos Aires, Argentina.

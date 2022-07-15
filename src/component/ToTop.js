@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import arrow from "../Assets/logos/up-arrow.png";
-export default function ToTop() {
-  const [isVisible, setIsVisible] = React.useState("true");
+export default function ToTop({}) {
+  const [isVisible, setIsVisible] = React.useState(false);
 
   const toggleVisibility = () => {
     if (window.scrollY > 400) {

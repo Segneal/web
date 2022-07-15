@@ -13,9 +13,9 @@ function App() {
   const about = React.useRef(null);
   const projects = React.useRef(null);
   const career = React.useRef(null);
+
   const divRefs = { about, career, projects };
 
-  console.log(about);
   return (
     <div className="app">
       <section className="app-page">
