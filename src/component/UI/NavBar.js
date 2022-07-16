@@ -6,7 +6,6 @@ const NavBar = React.forwardRef((props, divRefs) => {
   const { about, career, projects } = divRefs;
 
   const scrollToView = (section) => {
-    console.log(section);
     section.current.scrollIntoView();
   };
 

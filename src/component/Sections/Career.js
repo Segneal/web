@@ -1,5 +1,5 @@
 import React from "react";
-import "../constants/styles.css";
+import "../../constants/styles.css";
 
 export default function Career() {
   return (

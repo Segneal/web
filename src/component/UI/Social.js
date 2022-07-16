@@ -1,8 +1,8 @@
-import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Flex, Image, Link } from "@chakra-ui/react";
 import React from "react";
-import Instagram from "../Assets/logos/Instagram.png";
-import Linkedin from "../Assets/logos/Linkedin.png";
-import Github from "../Assets/logos/Github.png";
+import Instagram from "../../Assets/logos/Instagram.png";
+import Linkedin from "../../Assets/logos/Linkedin.png";
+import Github from "../../Assets/logos/Github.png";
 
 export default function Social() {
   const linkedinUrl = "https://www.linkedin.com/in/anicoheredia/";

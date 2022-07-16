@@ -1,7 +1,6 @@
 import { Box, Text, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
-import Social from "./Social";
-import "../constants/styles.css";
+import "../../constants/styles.css";
 export default function Presentation() {
   return (
     <Flex

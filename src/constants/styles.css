@@ -17,7 +17,7 @@ body {
 }
 
 .fire {
-  background-color: #913b03;
+  background-color: #3d1706;
 }
 
 .opaque {
@@ -235,6 +235,7 @@ body {
   }
 
   .topNav {
+    padding-top: 1em;
     font-size: 1.25rem;
   }
 

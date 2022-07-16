@@ -1,8 +1,6 @@
-import { Box, Flex, Container, Heading, Image } from "@chakra-ui/react";
 import React from "react";
-import Portrait from "../Assets/Images/portrait.jpg";
-import "../constants/styles.css";
-import { fontBreakPoints, imageBreakPoints } from "../constants/breakpoints";
+import Portrait from "../../Assets/Images/portrait.jpg";
+import "../../constants/styles.css";
 
 //https://www.styleshout.com/templates/preview/Ceevee_2_0_0/#about
 
